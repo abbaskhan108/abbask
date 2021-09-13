@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+ body
+ {
+ 
+
+	 margin:0px;
+	 padding:0px;
+ }
+ .container{
+	 width:960PX;
+	 margin: 0 auto;
+ }
+.mainheader{
+	height:120px;
+	padding:0 20px;
+	background-color:#ffcc00;
+}
+nav{
+	height:50px;
+	background-color:#333;
+}
+nav ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+nav ul li{
+	float:left;
+}
+nav ul a{
+	text-decoration:none;
+	text-align:center;
+	color:#FFF;
+	display:block;
+	height:50px;
+	width:192px;
+	line-height:50px;
+}	
+nav ul a:hover{
+	background-color:#ffcc00;
+	color:#333;
+}
+nav ul li:hover > ul{
+	visibility:visible;
+}
+nav ul ul {
+	position:absolute;
+	background-color:#333;
+	visibility:hidden;
+}	
+nav ul ul ul {
+	margin-left: 192px;
+	margin-top: -50px;
+}
+nav ul ul li{
+	float:none;
+}
+ 
+.mainslider{ margin:0 0px; float:left; width:100%; float:left; }
+.mainslider img{ margin:0 0px; float:left; width:100%; height:400px; }
+
+.welcomeText{ margin:0px; padding:0px 0; width:100%; float:left; }
+.welcomeText h2,p{ margin:0px; padding:20px 0; text-align:center;}
+.aboutText{margin:10px; padding:10px 0; width:100%; float:left; }
+.data{margin:0px; padding:0px 0; width:50%; float:left; }
+.data p{margin:0px; padding:0px 10px; text-align:justify; }
+.dataImg{margin:0px; padding:0px 0; width:400px; float:left;}
+*{
+
+}
+body{
+	margin:0;
+	background:#CCC;
+}
+
+.container{
+	max-width:1200px;
+	margin:0px;
+	overflow:auto;
+}
+.gallery{
+	margin:45px;
+	border:opx;
+	float:left;
+	width:150px;
+}
+.gallery img{
+	width:100%;
+	height:auto;
+}
+.desc{
+	padding:15px;
+	text-align:center;
+}
+
+
+
+
+
+
+.dataImg img{margin:0px; padding:0px 0; width:100%; }
+/* CSS Document */
+
