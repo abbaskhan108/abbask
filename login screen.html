@@ -1,0 +1,28 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>VIT Login Screen</h1>
+        <form name="vitform">
+            username<input type="text" name="userid"/>
+            password<input type="password" name="pswrd"/>
+            <input type="button" onclick="openwebsite(vitform)" value="login"/> 
+            <input type="reset" value="cencel"/>
+        </form>
+        <script language="Javascript">
+            function openwebsite(vitform)
+            {
+                if (vitform.userid.value =="vitadmin" &&vitform.pswrd.value=="admin")
+                {
+                    window.open('topbar.html')
+                }
+                else
+                {
+                    alert("Error password or username")
+                }
+            }
+
+        </script>
+    </body>
+</html>
